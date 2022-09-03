@@ -1,0 +1,17 @@
+{
+    "name": "Remove Youtube Shorts UI",
+    "version": "1",
+    "declarative_net_request": {
+        "rule_resources": [
+            {
+                "id": "ruleset_1",
+                "enabled": true,
+                "path": "rules.json"
+            }
+        ]
+    },
+    "permissions": [
+        "declarativeNetRequest"
+    ],
+    "manifest_version": 3
+}
