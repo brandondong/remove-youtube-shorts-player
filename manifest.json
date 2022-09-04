@@ -1,5 +1,6 @@
 {
-    "name": "Remove Youtube Shorts UI",
+    "name": "Remove Youtube Shorts Player",
+    "description": "Forces Youtube Shorts to be opened in the normal video player",
     "version": "1",
     "declarative_net_request": {
         "rule_resources": [
