@@ -10,6 +10,17 @@
             }
         ]
     },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.youtube.com/*"
+            ],
+            "all_frames": true,
+            "js": [
+                "youtube.js"
+            ]
+        }
+    ],
     "permissions": [
         "declarativeNetRequest"
     ],
